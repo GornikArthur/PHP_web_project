@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sportpit store</title>
+  <link href="../vendor/css/products.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="navbar-brand" href="index.html">Sportpit</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="products.html">Каталог <i class="fas fa-shopping-bag"></i> </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="orders.html">Корзина <i class="fas fa-shopping-cart"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">Войти <i class="fas fa-sign-in-alt"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="category-swiper-container">
+  <div class="categories-container">
+    <a class="category main-category" href="products.html">Категории</a>
+    <div class="subcategories">
+      <a class="category" href="products.html">Протеины</a>
+      <a class="category" href="products.html">Аминокислоты и BCAA</a>
+      <a class="category" href="products.html">Гейнеры</a>
+      <a class="category" href="products.html">Жиросжигатели</a>
+    </div>
+  </div>
+   <!-- Слайдер -->
+  <div class="slider">
+    <img class='slider-img' src="../vendor/img/slide_1.jpg" />
+    <img class='slider-img' src="../vendor/img/slide_2.jpg" />
+    <img class='slider-img' src="../vendor/img/slide_3.jpg" />
+
+    <div>
+      <img style='opacity: 1; height: 20px;' class="prev controlls" src="../vendor/img/left.png" alt="">
+    </div>
+
+    <div>
+      <img style='opacity: 1; height: 20px;'  class="next controlls" src="../vendor/img/right.png" alt="">
+    </div>
+
+  </div>
+</div>
+
+<!-- Секция с товарами -->
+<div class="product-grid">
+  <div class="product-item">
+    <img src="../vendor/img/products/product_1.png" alt="Product 1">
+    <h3>Beef Protein</h3>
+    <p>Протеиновая добавка на основе говяжьего белка с L-аргинином, без сахара, без глютена и с низким содержанием жиров. Отлично подходит для набора мышечной массы и восстановления.</p>
+    <p class="price">10$</p>
+    <button class="purchase-btn" type="button">
+      <a class="purchase-link" href="products.html">
+        В корзину
+      </a>
+    </button>
+  </div>
+  <div class="product-item">
+    <img src="../vendor/img/products/product_2.png" alt="Product 2">
+    <h3>Protein Professional</h3>
+    <p>Высококачественный сывороточный протеин с аминокислотами, идеально подходит для роста мышц и быстрого восстановления после тренировок. Вкус ванили.</p>
+    <p class="price">15$</p>
+    <button class="purchase-btn" type="button">
+      <a class="purchase-link" href="products.html">
+        В корзину
+      </a>
+    </button>
+  </div>
+  <div class="product-item">
+    <img src="../vendor/img/products/product_3.png" alt="Product 3">
+    <h3>PRO Whey</h3>
+    <p>Протеин с низким содержанием сахара, высоким содержанием белка (22 г на порцию) и отличным ванильным вкусом. Подходит для спортивного питания и поддержки активного образа жизни.</p>
+    <p class="price">13$</p>
+    <button class="purchase-btn" type="button">
+      <a class="purchase-link" href="products.html">
+        В корзину
+      </a>
+    </button>
+  </div>
+  <div class="product-item">
+    <img src="../vendor/img/products/product_4.png" alt="Product 4">
+    <h3>Ultimate Nutrition Prostar</h3>
+    <p>Протеиновый порошок с вкусом малины, предназначенный для поддержки мышечного роста и восстановления.</p>
+    <p class="price">20$</p>
+    <button class="purchase-btn" type="button">
+      <a class="purchase-link" href="products.html">
+        В корзину
+      </a>
+    </button>
+  </div>
+  <div class="product-item">
+    <img src="../vendor/img/products/product_5.png" alt="Product 5">
+    <h3>Mutant Whey Protein</h3>
+    <p>Высококачественный сывороточный протеин с вкусом клубники и сливок, разработанный для набора мышечной массы и восстановления.</p>
+    <p class="price">25$</p>
+    <button class="purchase-btn" type="button">
+      <a class="purchase-link" href="products.html">
+        В корзину
+      </a>
+    </button>
+  </div>
+  <div class="product-item">
+    <img src="../vendor/img/products/product_6.png" alt="Product 6">
+    <h3>BSN Syntha-6 Isolate</h3>
+    <p>Изолят протеина с вкусом печенья с арахисовым маслом, предназначенный для поддержки мышечного роста, восстановления и улучшения питания. </p>
+    <p class="price">30$</p>
+    <button class="purchase-btn" type="button">
+      <a class="purchase-link" href="products.html">
+        В корзину
+      </a>
+    </button>
+  </div>
+</div>
+
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+  <div class="container">
+    <p class="m-0 text-center text-white">Copyright &copy; Sportpit 2024</p>
+  </div>
+  <!-- /.container -->
+</footer>
+
+<script src="../vendor/js/script.js"></script>
+</body>
+</html>
